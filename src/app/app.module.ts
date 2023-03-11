@@ -13,8 +13,8 @@ import { DialogAddPlayerComponent } from './dialog-add-player/dialog-add-player.
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatInputModule} from '@angular/material/input';
 import {FormsModule} from '@angular/forms';
-import { GameDescriptionComponent } from './game-description/game-description.component';
 import {MatCardModule} from '@angular/material/card';
+import { GameInfoComponent } from './game-info/game-info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import {MatCardModule} from '@angular/material/card';
     GameComponent,
     PlayerComponent,
     DialogAddPlayerComponent,
-    GameDescriptionComponent
+    GameInfoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Route, RouterEvent, Routes } from '@angular/router';
 import { Router } from '@angular/router';
 
 @Component({
@@ -25,6 +24,4 @@ export class StartScreenComponent implements OnInit {
   }
 
 }
-
-
 
